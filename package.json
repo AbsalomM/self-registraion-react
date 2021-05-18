@@ -2,13 +2,22 @@
   "name": "react-biometrics-app",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://192.168.101.238:8080/",
   "dependencies": {
+    "@regulaforensics/document-reader-webclient": "^5.6.0",
+    "@regulaforensics/face-recognition-webclient": "^2.1.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "base64-arraybuffer-es6": "^0.7.0",
+    "framer-motion": "^4.1.16",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "styled-components": "^5.3.0",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
